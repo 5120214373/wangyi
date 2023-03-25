@@ -1,0 +1,30 @@
+export default {
+    //双击歌曲
+    currentsong({commit},song){
+        commit('CURRENTSONG',song)
+    },
+    //具体歌单的全部歌曲
+    playlist({commit},data){
+        commit('PLAYLIST',data)
+    },
+    //双击歌曲的信息
+    playsonginfo({commit},data){
+        commit('PLAYSONGINFO',data)
+    },
+    //保存心动歌曲的id
+    saveloveids({commit},data){
+        commit('SAVELOVEIDS',data)
+    },
+    //添加心动歌曲的id
+    addloveid({commit},data){
+        commit('ADDLOVEID',data)
+    },
+    //删除心动歌曲的id
+    delloveid({commit},data){
+        commit('DELLOVEID',data)
+    },
+    //歌单信息
+    playlistinfo({commit},data){
+        commit('PLAYLISTINFO',data)
+    }
+}

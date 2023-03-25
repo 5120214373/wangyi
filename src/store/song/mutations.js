@@ -1,0 +1,27 @@
+export default {
+    CURRENTSONG(state,song){
+        state.currentsong=song
+    },
+    PLAYLIST(state,data){
+        state.playlist=data
+    },
+    PLAYSONGINFO(state,data){
+        state.playsonginfo=data
+    },
+    SAVELOVEIDS(state,data){
+        state.loveIds=data
+    },
+    ADDLOVEID(state,data){
+        state.loveIds.unshift(data)
+    },
+    DELLOVEID(state,data){
+        state.loveIds.forEach((item,index)=>{
+            if(item==data){
+                state.loveIds.splice(index,1)
+            }
+        })
+    },
+    PLAYLISTINFO(state,data){
+        state.playlistInfo=data
+    }
+}

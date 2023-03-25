@@ -1,0 +1,9 @@
+全局组件 components
+   roof 顶部组件
+   sidebar 侧边栏组件
+   footer  底部组件
+   swiper  轮播图组件
+路由组件  view
+   home  整个页面布局组件
+   findmusic  发现音乐组件
+   lebo       乐播组件
