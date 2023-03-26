@@ -24,7 +24,7 @@
 ## 我的收藏页面
 获取用户的收藏，歌手收藏，视频收藏，专辑收藏
 # 界面截图
-![Uploading image.png…]()
+![Uploading image.png…](https://github.com/5120214373/wangyi/blob/master/1.png)
 
 ## Project setup
 ```
