@@ -43,6 +43,8 @@
 ## 歌单页面
 ![Uploading image.png…](https://github.com/5120214373/wangyi/blob/master/programImage/10.png)
 ![Uploading image.png…](https://github.com/5120214373/wangyi/blob/master/programImage/22.png)
+## 歌词展示
+![Uploading image.png…](https://github.com/5120214373/wangyi/blob/master/programImage/23.png)
 ## 排行榜页面
 ![Uploading image.png…](https://github.com/5120214373/wangyi/blob/master/programImage/11.png)
 ## 歌手页面
