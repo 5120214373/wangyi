@@ -76,7 +76,7 @@ export const keysearch=(data)=>requests({url:`/search/suggest?keywords=${data}`,
 //10个推荐榜单
 export const recommendlist=(data)=>requests({url:`/personalized?limit=${data}`,method:'post'})
 //获得歌曲的歌词
-export const getlyric=(data)=>requests({url:`/lyric/new?id=${data}`,method:'post'})
+export const getlyric=(data)=>requests({url:`/lyric?id=${data}`,method:'post'})
 //最近播放的100首歌
 export const recentPlay=()=>requests({url:`/record/recent/song`,method:'get'})
 
@@ -202,7 +202,7 @@ export const mvCollect=()=>requests({url:'/mv/sublist',method:'get'})
 export const addOrDelMvCollect=(id,t)=>requests({url:`/mv/sub?t=${t}&mvid=${id}`,method:'post'})
 //收藏或取消收藏视频 t:1为收藏，其他为取消收藏
 export const addOrDelVedioCollect=(id,t)=>requests({url:`/video/sub?t=${t}&id=${id}`,method:'post'})
-//专栏收藏 
+//专栏收藏
 export const columnCollect=(offset)=>requests({url:`/topic/sublist?limit=30&offset=${offset}`})
 //歌手收藏
 export const singerCollect=()=>requests({url:`/artist/sublist`,method:'get'})
